@@ -1,46 +1,79 @@
+<div align="center">
+
 # Erold
 
-**Project management built for developers who ship.**
+### AI-Native Project Management for Developers
 
-Erold is an open-source project management platform designed specifically for software teams. It integrates directly into your development workflow through CLI tools and AI assistants.
+Let Claude Code, Cursor, and AI assistants manage your projects directly.
 
-## Open Source Tools
+[Website](https://erold.dev) · [Documentation](https://erold.dev/docs) · [Get Started](https://app.erold.dev/auth/register)
 
-| Repository | Description |
-|------------|-------------|
-| [cli](https://github.com/erold-dev/cli) | Command-line interface for managing projects, tasks, and knowledge base |
-| [mcp-server](https://github.com/erold-dev/mcp-server) | MCP server for AI assistant integration (Claude, etc.) |
+</div>
 
-## Quick Start
+---
 
-```bash
-# Install the CLI
-npm install -g @erold/cli
+## The Problem
 
-# Login and start managing projects
-erold login
-erold projects list
-erold tasks list
+Traditional project management tools weren't built for AI-assisted development. Every time you work with Claude, Cursor, or other AI assistants, you have to:
+
+- Copy-paste task descriptions into chat
+- Manually update progress after each session
+- Re-explain project context every conversation
+- Switch between tools constantly
+
+**Erold solves this.** It's the first project management platform where AI assistants can directly read tasks, update progress, and access project knowledge.
+
+## How It Works
+
+Your AI assistant connects to Erold via MCP (Model Context Protocol) and can:
+
+```
+You: "Create a task for implementing OAuth"
+Claude: ✓ Created task in "Backend API" project (Priority: High)
+
+You: "What's left on the authentication feature?"
+Claude: 3 tasks remaining: OAuth setup, session management, JWT refresh
+
+You: "Mark the OAuth task as complete"
+Claude: ✓ Updated task_7kd9f2 to Done
 ```
 
-## Features
+No copy-paste. No context switching. Just natural conversation.
 
-- **CLI-first workflow** - Manage everything from your terminal
-- **AI assistant integration** - Use with Claude and other MCP-compatible assistants
-- **Real-time sync** - Changes sync instantly across all devices
-- **Knowledge base** - Store and search project documentation
-- **Team collaboration** - Invite team members and assign tasks
+## Developer Tools (Open Source)
 
-## About
+We provide two open-source tools for developers:
 
-Erold is developed by [Yet Technologies](https://yet.lu), a European enterprise software company based in Luxembourg specializing in AI solutions and developer tools.
+| Tool | Description | Install |
+|------|-------------|---------|
+| **[@erold/cli](https://github.com/erold-dev/cli)** | Manage tasks from your terminal | `npm install -g @erold/cli` |
+| **[@erold/mcp-server](https://github.com/erold-dev/mcp-server)** | Connect AI assistants to Erold | `npm install -g @erold/mcp-server` |
 
-## Links
+## Why Developers Choose Erold
 
-- [Website](https://erold.dev)
-- [Documentation](https://erold.dev/docs)
-- [App](https://app.erold.dev)
+- **API-First** — 68+ REST endpoints, MCP server with 27+ tools
+- **CLI-Native** — Full functionality from your terminal
+- **Knowledge Base** — Persistent memory for AI across sessions
+- **Team Ready** — Collaborate with your team in real-time
+- **Fair Pricing** — Free tier available, then $5/month for Pro
 
-## License
+## Get Started in 2 Minutes
 
-MIT
+1. **Sign up** at [app.erold.dev](https://app.erold.dev/auth/register)
+2. **Install the CLI**: `npm install -g @erold/cli`
+3. **Login**: `erold login`
+4. **Create your first project**: `erold projects create "My Project"`
+
+For AI integration, see our [MCP setup guide](https://erold.dev/docs/mcp).
+
+## Built by Yet Technologies
+
+Erold is developed by [Yet Another Artificial Intelligence Company](https://yet.lu), a Luxembourg-based company building AI-powered tools for developers.
+
+---
+
+<div align="center">
+
+**[Start Free →](https://app.erold.dev/auth/register)**
+
+</div>
