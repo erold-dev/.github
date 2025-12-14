@@ -4,20 +4,18 @@
 
 Erold is an open-source project management platform designed specifically for software teams. It integrates directly into your development workflow through CLI tools and AI assistants.
 
-## What We Build
+## Open Source Tools
 
 | Repository | Description |
 |------------|-------------|
 | [cli](https://github.com/erold-dev/cli) | Command-line interface for managing projects, tasks, and knowledge base |
 | [mcp-server](https://github.com/erold-dev/mcp-server) | MCP server for AI assistant integration (Claude, etc.) |
-| [backend](https://github.com/erold-dev/backend) | Firebase Cloud Functions and Firestore configuration |
-| [www](https://github.com/erold-dev/www) | Marketing website at [erold.dev](https://erold.dev) |
 
 ## Quick Start
 
 ```bash
 # Install the CLI
-npm install -g @anthropic/erold-cli
+npm install -g @erold/cli
 
 # Login and start managing projects
 erold login
@@ -35,7 +33,7 @@ erold tasks list
 
 ## About
 
-Erold is developed by [Yet Technologies](https://yet.lu), a European enterprise software company based in Luxembourg. We specialize in AI solutions and developer tools.
+Erold is developed by [Yet Technologies](https://yet.lu), a European enterprise software company based in Luxembourg specializing in AI solutions and developer tools.
 
 ## Links
 
