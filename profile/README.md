@@ -2,78 +2,82 @@
 
 # Erold
 
-### AI-Native Project Management for Developers
+### Open Source, AI-Native Project Management
 
-Let Claude Code, Cursor, and AI assistants manage your projects directly.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Stars](https://img.shields.io/github/stars/erold-dev?style=social)](https://github.com/erold-dev)
 
-[Website](https://erold.dev) · [Documentation](https://erold.dev/docs) · [Get Started](https://app.erold.dev/auth/register)
+The only project management platform built for AI-first workflows.
+
+**Open Source** · **BYOK (Bring Your Own Key)** · **Self-Host**
+
+[Website](https://erold.dev) · [Guidelines](https://erold.dev/guidelines) · [Get Started](https://app.erold.dev/auth/register)
 
 </div>
 
 ---
 
-## The Problem
+## Why Erold?
 
-Traditional project management tools weren't built for AI-assisted development. Every time you work with Claude, Cursor, or other AI assistants, you have to:
+| Feature | Erold | Notion | Linear |
+|---------|-------|--------|--------|
+| Open source | Yes | No | No |
+| MCP-native | Yes | No | No |
+| BYOK (bring your own key) | Yes | No | No |
+| Self-host option | Yes | No | No |
+| AI coding guidelines | Yes | No | No |
+| Privacy-first | Yes | No | No |
 
-- Copy-paste task descriptions into chat
-- Manually update progress after each session
-- Re-explain project context every conversation
-- Switch between tools constantly
+## Repositories
 
-**Erold solves this.** It's the first project management platform where AI assistants can directly read tasks, update progress, and access project knowledge.
+| Repository | Description |
+|------------|-------------|
+| **[www](https://github.com/erold-dev/www)** | Marketing website with 158+ AI coding guidelines |
+| **[mcp-server](https://github.com/erold-dev/mcp-server)** | MCP server for AI assistants (Claude, Cursor, etc.) |
+| **[cli](https://github.com/erold-dev/cli)** | Command-line interface for terminal workflows |
 
 ## How It Works
 
-Your AI assistant connects to Erold via MCP (Model Context Protocol) and can:
+Your AI assistant connects via MCP and can manage projects directly:
 
 ```
 You: "Create a task for implementing OAuth"
-Claude: ✓ Created task in "Backend API" project (Priority: High)
+Claude: Created task in "Backend API" project
 
-You: "What's left on the authentication feature?"
-Claude: 3 tasks remaining: OAuth setup, session management, JWT refresh
-
-You: "Mark the OAuth task as complete"
-Claude: ✓ Updated task_7kd9f2 to Done
+You: "What's left on authentication?"
+Claude: 3 tasks remaining: OAuth, sessions, JWT refresh
 ```
 
-No copy-paste. No context switching. Just natural conversation.
+## Pricing
 
-## Developer Tools (Open Source)
+| Tier | Price | What You Get |
+|------|-------|--------------|
+| **Free** | $0 | Full product, BYOK, self-host, unlimited everything |
+| **Cloud** | $9/user/mo | Managed hosting, backups, SSL, SLA |
+| **Enterprise** | Custom | EU hosting, SOC 2, SSO, dedicated support |
 
-We provide two open-source tools for developers:
+## Get Started
 
-| Tool | Description | Install |
-|------|-------------|---------|
-| **[@erold/cli](https://github.com/erold-dev/cli)** | Manage tasks from your terminal | `npm install -g @erold/cli` |
-| **[@erold/mcp-server](https://github.com/erold-dev/mcp-server)** | Connect AI assistants to Erold | `npm install -g @erold/mcp-server` |
+```bash
+# Clone and self-host
+git clone https://github.com/erold-dev/www.git
 
-## Why Developers Choose Erold
+# Or use our cloud
+# Visit app.erold.dev/auth/register
+```
 
-- **API-First** — 68+ REST endpoints, MCP server with 27+ tools
-- **CLI-Native** — Full functionality from your terminal
-- **Knowledge Base** — Persistent memory for AI across sessions
-- **Team Ready** — Collaborate with your team in real-time
-- **Fair Pricing** — Free tier available, then $5/month for Pro
+## Contributing
 
-## Get Started in 2 Minutes
+We welcome contributions! Each repository has a CONTRIBUTING.md with guidelines.
 
-1. **Sign up** at [app.erold.dev](https://app.erold.dev/auth/register)
-2. **Install the CLI**: `npm install -g @erold/cli`
-3. **Login**: `erold login`
-4. **Create your first project**: `erold projects create "My Project"`
-
-For AI integration, see our [MCP setup guide](https://erold.dev/docs/mcp).
-
-## Built by Yet Technologies
-
-Erold is developed by [Yet Another Artificial Intelligence Company](https://yet.lu), a Luxembourg-based company building AI-powered tools for developers.
+- **[Report issues](https://github.com/erold-dev/www/issues)**
+- **[Suggest guidelines](https://github.com/erold-dev/www/discussions)**
+- **[Edit on GitHub](https://erold.dev/guidelines)** - Every guideline has an edit button
 
 ---
 
 <div align="center">
 
-**[Start Free →](https://app.erold.dev/auth/register)**
+**Free & Open Source** · [erold.dev](https://erold.dev)
 
 </div>
