@@ -32,9 +32,11 @@ The only project management platform built for AI-first workflows.
 
 | Repository | Description |
 |------------|-------------|
-| **[www](https://github.com/erold-dev/www)** | Marketing website with 158+ AI coding guidelines |
 | **[mcp-server](https://github.com/erold-dev/mcp-server)** | MCP server for AI assistants (Claude, Cursor, etc.) |
+| **[claude-plugin](https://github.com/erold-dev/claude-plugin)** | Claude Code plugin with skills, agents, and hooks |
+| **[erold-code](https://github.com/erold-dev/erold-code)** | AI coding agent with workflow enforcement |
 | **[cli](https://github.com/erold-dev/cli)** | Command-line interface for terminal workflows |
+| **[www](https://github.com/erold-dev/www)** | Marketing website with 158+ AI coding guidelines |
 
 ## How It Works
 
